@@ -58,3 +58,261 @@
 12:39:38.503 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
 12:39:38.505 [http-nio-8080-exec-8] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
 12:39:38.509 [http-nio-8080-exec-8] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591637978505,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:53:21.624 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - Starting DemoApplication on DESKTOP-FR9E9QT with PID 2712 (D:\demo\target\classes started by Mosad in D:\demo)
+12:53:21.626 [restartedMain] ReqId:[] UserName:[] DEBUG c.security.jwt.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+12:53:21.626 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - No active profile set, falling back to default profiles: default
+12:53:23.513 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.ExceptionHandlerFilter - Filter 'exceptionHandlerFilter' configured for use
+12:53:23.513 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+12:53:25.523 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - Start Of onApplicationEvent
+12:53:25.523 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - Start Of fillRoleTable
+12:53:25.611 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - No Roles In a table 
+12:53:25.851 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_USER inserted
+12:53:25.852 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_ADMIN inserted
+12:53:25.852 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_SUPER inserted
+12:53:25.852 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - End Of fillRoleTable
+12:53:25.855 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - Start of saveUser
+12:53:25.855 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - Start of isEmailExist 
+12:53:25.876 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - End of isEmailExist
+12:53:26.005 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - End of saveUser
+12:53:26.005 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - End Of onApplicationEvent
+12:53:26.042 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - Started DemoApplication in 4.637 seconds (JVM running for 5.578)
+12:53:33.085 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/'
+12:53:33.087 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:33.184 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/stylesheet.css'
+12:53:33.184 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:33.206 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/login.jsp'
+12:53:33.206 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:33.254 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/background.gif'
+12:53:33.254 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:33.412 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/favicon.ico'
+12:53:33.413 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:33.419 [http-nio-8080-exec-5] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:53:33.472 [http-nio-8080-exec-5] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638813421,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:53:34.847 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/login.do'
+12:53:34.847 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:34.951 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/favicon.ico'
+12:53:34.951 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:34.952 [http-nio-8080-exec-7] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:53:34.965 [http-nio-8080-exec-7] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638814953,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:53:47.083 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/login.do'
+12:53:47.083 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:47.117 [http-nio-8080-exec-9] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/stylesheet.css'
+12:53:47.118 [http-nio-8080-exec-9] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:47.123 [http-nio-8080-exec-10] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/header.jsp'
+12:53:47.123 [http-nio-8080-exec-10] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:47.127 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tables.do'
+12:53:47.127 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:47.131 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/help.jsp'
+12:53:47.131 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/query.jsp'
+12:53:47.131 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:47.131 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:47.245 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/favicon.ico'
+12:53:47.245 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:47.246 [http-nio-8080-exec-4] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:53:47.257 [http-nio-8080-exec-4] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638827246,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:53:49.237 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/favicon.ico'
+12:53:49.237 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:53:49.238 [http-nio-8080-exec-5] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:53:49.243 [http-nio-8080-exec-5] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638829238,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:54:21.033 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - Starting DemoApplication on DESKTOP-FR9E9QT with PID 2712 (D:\demo\target\classes started by Mosad in D:\demo)
+12:54:21.033 [restartedMain] ReqId:[] UserName:[] DEBUG c.security.jwt.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+12:54:21.033 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - No active profile set, falling back to default profiles: default
+12:54:21.608 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.ExceptionHandlerFilter - Filter 'exceptionHandlerFilter' configured for use
+12:54:21.608 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+12:54:22.106 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - Start Of onApplicationEvent
+12:54:22.106 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - Start Of fillRoleTable
+12:54:22.110 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - No Roles In a table 
+12:54:22.111 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_USER inserted
+12:54:22.111 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_ADMIN inserted
+12:54:22.111 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_SUPER inserted
+12:54:22.112 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - End Of fillRoleTable
+12:54:22.113 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - Start of saveUser
+12:54:22.113 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - Start of isEmailExist 
+12:54:22.116 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - End of isEmailExist
+12:54:22.225 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - End of saveUser
+12:54:22.225 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - End Of onApplicationEvent
+12:54:22.233 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - Started DemoApplication in 1.223 seconds (JVM running for 61.768)
+12:54:30.551 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/login.do'
+12:54:30.553 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:54:30.558 [http-nio-8080-exec-1] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:54:30.565 [http-nio-8080-exec-1] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638870560,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:54:30.636 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/favicon.ico'
+12:54:30.636 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:54:30.637 [http-nio-8080-exec-2] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:54:30.645 [http-nio-8080-exec-2] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638870638,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:54:34.319 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/login.do'
+12:54:34.319 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:54:34.322 [http-nio-8080-exec-3] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:54:34.329 [http-nio-8080-exec-3] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638874322,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:54:34.370 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/favicon.ico'
+12:54:34.371 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:54:34.372 [http-nio-8080-exec-4] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:54:34.376 [http-nio-8080-exec-4] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638874372,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:54:50.378 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - Starting DemoApplication on DESKTOP-FR9E9QT with PID 2712 (D:\demo\target\classes started by Mosad in D:\demo)
+12:54:50.378 [restartedMain] ReqId:[] UserName:[] DEBUG c.security.jwt.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+12:54:50.378 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - No active profile set, falling back to default profiles: default
+12:54:50.947 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.ExceptionHandlerFilter - Filter 'exceptionHandlerFilter' configured for use
+12:54:50.947 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+12:54:51.522 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - Start Of onApplicationEvent
+12:54:51.522 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - Start Of fillRoleTable
+12:54:51.525 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - No Roles In a table 
+12:54:51.527 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_USER inserted
+12:54:51.527 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_ADMIN inserted
+12:54:51.527 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_SUPER inserted
+12:54:51.527 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - End Of fillRoleTable
+12:54:51.529 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - Start of saveUser
+12:54:51.529 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - Start of isEmailExist 
+12:54:51.532 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - End of isEmailExist
+12:54:51.636 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - End of saveUser
+12:54:51.636 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - End Of onApplicationEvent
+12:54:51.646 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - Started DemoApplication in 1.29 seconds (JVM running for 91.18)
+12:55:19.875 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - Starting DemoApplication on DESKTOP-FR9E9QT with PID 2712 (D:\demo\target\classes started by Mosad in D:\demo)
+12:55:19.876 [restartedMain] ReqId:[] UserName:[] DEBUG c.security.jwt.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+12:55:19.876 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - No active profile set, falling back to default profiles: default
+12:55:20.489 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.ExceptionHandlerFilter - Filter 'exceptionHandlerFilter' configured for use
+12:55:20.489 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+12:55:21.001 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - Start Of onApplicationEvent
+12:55:21.001 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - Start Of fillRoleTable
+12:55:21.004 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - No Roles In a table 
+12:55:21.006 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_USER inserted
+12:55:21.007 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_ADMIN inserted
+12:55:21.007 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_SUPER inserted
+12:55:21.007 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - End Of fillRoleTable
+12:55:21.009 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - Start of saveUser
+12:55:21.009 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - Start of isEmailExist 
+12:55:21.012 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - End of isEmailExist
+12:55:21.127 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - End of saveUser
+12:55:21.127 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - End Of onApplicationEvent
+12:55:21.136 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - Started DemoApplication in 1.292 seconds (JVM running for 120.671)
+12:55:26.742 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/login.do'
+12:55:26.745 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:26.753 [http-nio-8080-exec-1] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:55:26.763 [http-nio-8080-exec-1] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638926756,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:55:26.801 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/favicon.ico'
+12:55:26.801 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:26.802 [http-nio-8080-exec-2] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:55:26.806 [http-nio-8080-exec-2] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638926803,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:55:30.129 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/login.do'
+12:55:30.129 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:30.130 [http-nio-8080-exec-3] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:55:30.135 [http-nio-8080-exec-3] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638930131,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:55:30.179 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/favicon.ico'
+12:55:30.179 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:30.180 [http-nio-8080-exec-4] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:55:30.184 [http-nio-8080-exec-4] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638930180,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:55:35.077 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/'
+12:55:35.077 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:35.106 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/stylesheet.css'
+12:55:35.106 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:35.107 [http-nio-8080-exec-6] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:55:35.109 [http-nio-8080-exec-6] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638935107,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:55:35.120 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/login.jsp'
+12:55:35.121 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:35.121 [http-nio-8080-exec-7] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:55:35.124 [http-nio-8080-exec-7] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638935122,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:55:35.160 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/favicon.ico'
+12:55:35.160 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:35.161 [http-nio-8080-exec-8] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:55:35.164 [http-nio-8080-exec-8] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638935161,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:55:46.423 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - Starting DemoApplication on DESKTOP-FR9E9QT with PID 2712 (D:\demo\target\classes started by Mosad in D:\demo)
+12:55:46.423 [restartedMain] ReqId:[] UserName:[] DEBUG c.security.jwt.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+12:55:46.423 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - No active profile set, falling back to default profiles: default
+12:55:47.016 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.ExceptionHandlerFilter - Filter 'exceptionHandlerFilter' configured for use
+12:55:47.016 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+12:55:47.491 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - Start Of onApplicationEvent
+12:55:47.491 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - Start Of fillRoleTable
+12:55:47.494 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - No Roles In a table 
+12:55:47.495 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_USER inserted
+12:55:47.496 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_ADMIN inserted
+12:55:47.496 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_SUPER inserted
+12:55:47.497 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - End Of fillRoleTable
+12:55:47.499 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - Start of saveUser
+12:55:47.499 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - Start of isEmailExist 
+12:55:47.502 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - End of isEmailExist
+12:55:47.602 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - End of saveUser
+12:55:47.602 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - End Of onApplicationEvent
+12:55:47.611 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - Started DemoApplication in 1.209 seconds (JVM running for 147.146)
+12:55:48.854 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/login.jsp'
+12:55:48.856 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:48.877 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/stylesheet.css'
+12:55:48.877 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:48.893 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/login.jsp'
+12:55:48.893 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:48.923 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/background.gif'
+12:55:48.923 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:48.948 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/favicon.ico'
+12:55:48.948 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:48.951 [http-nio-8080-exec-5] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:55:48.954 [http-nio-8080-exec-5] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638948952,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:55:50.596 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/login.do'
+12:55:50.596 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.645 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/header.jsp'
+12:55:50.645 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.649 [http-nio-8080-exec-10] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/query.jsp'
+12:55:50.649 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tables.do'
+12:55:50.649 [http-nio-8080-exec-10] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.649 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.661 [http-nio-8080-exec-9] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/help.jsp'
+12:55:50.661 [http-nio-8080-exec-9] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.681 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/icon_disconnect.gif'
+12:55:50.681 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.681 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/icon_line.gif'
+12:55:50.681 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.692 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/icon_refresh.gif'
+12:55:50.692 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.692 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/icon_rollback.gif'
+12:55:50.692 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.694 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/icon_commit.gif'
+12:55:50.694 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.694 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/icon_run_selected.gif'
+12:55:50.694 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/icon_run.gif'
+12:55:50.695 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.694 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.695 [http-nio-8080-exec-10] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/icon_stop.gif'
+12:55:50.696 [http-nio-8080-exec-10] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.701 [http-nio-8080-exec-9] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/icon_history.gif'
+12:55:50.701 [http-nio-8080-exec-9] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.703 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/icon_help.gif'
+12:55:50.703 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.785 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree.js'
+12:55:50.785 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.808 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_minus.gif'
+12:55:50.808 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.808 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_plus.gif'
+12:55:50.809 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.811 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_database.gif'
+12:55:50.811 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.812 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_table.gif'
+12:55:50.812 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.813 [http-nio-8080-exec-10] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_empty.gif'
+12:55:50.813 [http-nio-8080-exec-10] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.813 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_column.gif'
+12:55:50.814 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.823 [http-nio-8080-exec-9] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_index_az.gif'
+12:55:50.823 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_type.gif'
+12:55:50.823 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.823 [http-nio-8080-exec-9] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.823 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_index.gif'
+12:55:50.823 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.828 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_folder.gif'
+12:55:50.828 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.835 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_sequences.gif'
+12:55:50.835 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.835 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_sequence.gif'
+12:55:50.835 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.836 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_users.gif'
+12:55:50.836 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.837 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_user.gif'
+12:55:50.837 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.838 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/tree_info.gif'
+12:55:50.838 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.856 [http-nio-8080-exec-10] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/favicon.ico'
+12:55:50.856 [http-nio-8080-exec-10] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:55:50.857 [http-nio-8080-exec-10] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:55:50.861 [http-nio-8080-exec-10] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591638950857,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:56:00.809 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/query.do'
+12:56:00.810 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:56:00.856 [http-nio-8080-exec-9] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/table.js'
+12:56:00.856 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/h2/stylesheet.css'
+12:56:00.856 [http-nio-8080-exec-9] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:56:00.856 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'

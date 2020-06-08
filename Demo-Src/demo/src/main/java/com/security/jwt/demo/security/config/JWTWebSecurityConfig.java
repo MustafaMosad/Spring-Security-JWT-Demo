@@ -57,9 +57,11 @@ public class JWTWebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.authenticationEntryPoint(jwtUnAuthorizedResponseAuthenticationEntryPoint).and().sessionManagement()
 				.sessionCreationPolicy(SessionCreationPolicy.STATELESS).and().authorizeRequests()
 				.antMatchers("/demo/public", authenticationPath, "/v2/api-docs", "/configuration/ui", "/resources/**",
-						"/swagger-resources/**", "/configuration/security", "/swagger-ui.html", "/webjars/**")
+						"/swagger-resources/**", "/configuration/security", "/swagger-ui.html", "/webjars/**" , "/h2/**/**")
 				.permitAll().anyRequest().authenticated().and()
 				.addFilterBefore(jwtAuthenticationTokenFilter, UsernamePasswordAuthenticationFilter.class);
+
+        httpSecurity.headers().frameOptions().disable();
 
 	}
 
