@@ -1,0 +1,60 @@
+12:39:06.636 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - Starting DemoApplication on DESKTOP-FR9E9QT with PID 12084 (D:\demo\target\classes started by Mosad in D:\demo)
+12:39:06.643 [restartedMain] ReqId:[] UserName:[] DEBUG c.security.jwt.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+12:39:06.643 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - No active profile set, falling back to default profiles: default
+12:39:09.327 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.ExceptionHandlerFilter - Filter 'exceptionHandlerFilter' configured for use
+12:39:09.328 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+12:39:13.614 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - Start Of onApplicationEvent
+12:39:13.614 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - Start Of fillRoleTable
+12:39:13.976 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - No Roles In a table 
+12:39:14.014 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_USER inserted
+12:39:14.018 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_ADMIN inserted
+12:39:14.021 [restartedMain] ReqId:[] UserName:[] DEBUG c.s.j.d.c.p.OnApplicationStartUp - Role .. ROLE_SUPER inserted
+12:39:14.021 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - End Of fillRoleTable
+12:39:14.026 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - Start of saveUser
+12:39:14.026 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - Start of isEmailExist 
+12:39:14.065 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - End of isEmailExist
+12:39:14.212 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.service.RegistrationService - End of saveUser
+12:39:14.212 [restartedMain] ReqId:[] UserName:[] INFO  c.s.j.d.c.p.OnApplicationStartUp - End Of onApplicationEvent
+12:39:14.249 [restartedMain] ReqId:[] UserName:[] INFO  c.security.jwt.demo.DemoApplication - Started DemoApplication in 7.957 seconds (JVM running for 9.251)
+12:39:17.400 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/swagger-ui.html'
+12:39:17.402 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:17.524 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/webjars/springfox-swagger-ui/springfox.css'
+12:39:17.525 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:17.528 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/webjars/springfox-swagger-ui/swagger-ui.css'
+12:39:17.528 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:17.529 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js'
+12:39:17.529 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:17.530 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/webjars/springfox-swagger-ui/springfox.js'
+12:39:17.530 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:17.530 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/webjars/springfox-swagger-ui/swagger-ui-bundle.js'
+12:39:17.530 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:17.845 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/swagger-resources/configuration/ui'
+12:39:17.846 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:17.947 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/swagger-resources/configuration/security'
+12:39:17.947 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:17.968 [http-nio-8080-exec-9] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/swagger-resources'
+12:39:17.968 [http-nio-8080-exec-9] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:18.026 [http-nio-8080-exec-10] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/v2/api-docs'
+12:39:18.026 [http-nio-8080-exec-10] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:18.027 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/'
+12:39:18.027 [http-nio-8080-exec-1] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:18.035 [http-nio-8080-exec-1] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:39:18.049 [http-nio-8080-exec-1] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591637958036,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:39:18.061 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2'
+12:39:18.061 [http-nio-8080-exec-2] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:18.073 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/csrf'
+12:39:18.073 [http-nio-8080-exec-3] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:18.074 [http-nio-8080-exec-3] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:39:18.084 [http-nio-8080-exec-3] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591637958074,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
+12:39:18.276 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2'
+12:39:18.276 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2'
+12:39:18.276 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2'
+12:39:18.277 [http-nio-8080-exec-4] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:18.277 [http-nio-8080-exec-6] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:18.277 [http-nio-8080-exec-5] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:38.431 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/v2/api-docs'
+12:39:38.431 [http-nio-8080-exec-7] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:38.503 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - Authentication Request For 'http://localhost:8080/favicon.ico'
+12:39:38.503 [http-nio-8080-exec-8] ReqId:[] UserName:[] DEBUG c.s.j.d.s.f.JwtTokenAuthorizationOncePerRequestFilter - JWT_TOKEN_USERNAME_VALUE 'null'
+12:39:38.505 [http-nio-8080-exec-8] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - Start of handleAuthenticationError
+12:39:38.509 [http-nio-8080-exec-8] ReqId:[] UserName:[] INFO  c.s.j.d.s.f.JwtUnAuthorizedResponseAuthenticationEntryPoint - End of handleAuthenticationError {"timestamp":1591637978505,"status":401,"error":"UNAUTHORIZED","messages":["You would need to provide the Jwt Token to Access This resource"]} 
